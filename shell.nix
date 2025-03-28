@@ -7,6 +7,7 @@ pkgs.mkShell {
     python313Packages.build
     python313Packages.pip
     python313Packages.wheel
+    python313Packages.setuptools
     
     # GitHub Actions local runner
     act

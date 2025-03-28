@@ -19,14 +19,12 @@ jobs:
         python-version: "3.13"
     - name: Install the latest version of uv
       uses: astral-sh/setup-uv@v5
-    - name: Install dependencies
-      run: |
-        uv pip install --upgrade pip
-        uv pip install build pytest
-        uv pip install -e .
     - name: Run tests
-      run: pytest tests/ -v
+      run: |
+        uv venv
+        uv pip install -e ".[dev]"
+        uv run pytest tests/ -v
     - name: Build package
-      run: python -m build
+      run: uv run python -m build
     - name: Publish to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
