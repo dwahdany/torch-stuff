@@ -9,9 +9,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/dwahdany/torch-stuff"
-Repository = "https://github.com/dwahdany/torch-stuff.git"
-Issues = "https://github.com/dwahdany/torch-stuff/issues"
+Homepage = "https://github.com/dwahdany/torch-things"
+Repository = "https://github.com/dwahdany/torch-things.git"
+Issues = "https://github.com/dwahdany/torch-things/issues"
 
 [dependency-groups]
 dev = [

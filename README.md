@@ -1,11 +1,11 @@
-# torch-stuff
+# torch-things
 
 A collection of useful PyTorch utilities and dataset helpers.
 
 ## Installation
 
 ```bash
-pip install torch-stuff
+pip install torch-things
 ```
 
 ## Features
