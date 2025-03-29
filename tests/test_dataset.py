@@ -4,7 +4,7 @@ import pytest
 import torch
 from torch.utils.data import Dataset
 
-from torch_stuff.dataset import DelegatingSubset
+from torch_things.dataset import DelegatingSubset
 
 
 class MockDataset(Dataset):

@@ -15,7 +15,7 @@ pip install torch-things
 A PyTorch dataset subset class that properly delegates all dataset attributes to the underlying dataset. This is particularly useful when working with datasets that have custom attributes that need to be preserved when creating subsets.
 
 ```python
-from torch_stuff.dataset import DelegatingSubset
+from torch_things.dataset import DelegatingSubset
 from torch.utils.data import Dataset
 
 # Create your dataset
