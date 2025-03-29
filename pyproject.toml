@@ -8,6 +8,11 @@ dependencies = [
     "torch>=2.6.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/dwahdany/torch-stuff"
+Repository = "https://github.com/dwahdany/torch-stuff.git"
+Issues = "https://github.com/dwahdany/torch-stuff/issues"
+
 [dependency-groups]
 dev = [
     "build>=1.2.2.post1",

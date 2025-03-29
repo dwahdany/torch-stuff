@@ -51,6 +51,7 @@ class DelegatingSubset(Subset):
     @property
     def classes(self) -> List[str]:
         """Get the classes from the underlying dataset.
+        Note that the subset might not contain all classes of the underlying dataset.
 
         Returns:
             The list of classes
