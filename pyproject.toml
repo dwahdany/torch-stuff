@@ -1,11 +1,11 @@
 [project]
 name = "torch-things"
 version = "0.0.4"
-description = "Add your description here"
+description = "Helpful utilities for working with PyTorch."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9"
 dependencies = [
-    "torch>=2.6.0",
+    "torch>=2",
 ]
 
 [project.urls]
