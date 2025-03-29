@@ -1,6 +1,6 @@
 [project]
 name = "torch-things"
-version = "0.0.5"
+version = "0.0.6"
 description = "Helpful utilities for working with PyTorch."
 readme = "README.md"
 requires-python = ">=3.9"
